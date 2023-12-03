@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url(fonts/Poppins/Poppins-SemiBold.ttf) format("opentype") ;
+  }
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url(fonts/Poppins/Poppins-Bold.ttf) format("opentype") ;
+  }
+@font-face {
+    font-family: 'poppins-regular';
+    src: url(fonts/Poppins/Poppins-Regular.ttf) format("opentype") ;
+  }
+
+  @font-face {
+    font-family: 'irish-grover';
+    src: url(fonts/Irish_Grover/IrishGrover-Regular.ttf) format("opentype") ;
+  }  
+
+  @font-face {
+    font-family: 'poppins-light';
+    src: url(fonts/Poppins/Poppins-Light.ttf) format("opentype") ;
+  }    
+  @font-face {
+    font-family: 'poppins-medium';
+    src: url(fonts/Poppins/Poppins-Medium.ttf) format("opentype") ;
+  } 
+
+
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+.signin-container{
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin-box{
+    height: 300px;
+    width: 500px;
+    background-image: linear-gradient(90deg,#097969, #088F8F);
+    border-radius: 1.75em;
+    display: grid;
+    grid-template-rows: 1fr,1fr,1fr;
+    grid-template-columns: 1fr;
+}
+
+.signin-text{
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 0.75em;
+    border-width: 0;
+    padding-left: 15px;
+    font-family: poppins-regular;
+}
+
+.signin-btn{
+    margin-top: 40px;
+    margin-right: 55px;
+    margin-left: 55px;
+    margin-bottom: 15px;
+    border-radius: 0.75em;
+    border-width: 0;
+    font-family: poppins-bold;
+    font-size: large;
+    color: #097969 ;
+}
+
+.signin-btn:hover{
+  transform: scale(105.5%);
+}
+
+.signin-custom{
+  font-size: xx-large;
+}

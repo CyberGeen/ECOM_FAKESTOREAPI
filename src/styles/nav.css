@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url(fonts/Poppins/Poppins-SemiBold.ttf) format("opentype") ;
+  }
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url(fonts/Poppins/Poppins-Bold.ttf) format("opentype") ;
+  }
+@font-face {
+    font-family: 'poppins-regular';
+    src: url(fonts/Poppins/Poppins-Regular.ttf) format("opentype") ;
+  }
+
+  @font-face {
+    font-family: 'irish-grover';
+    src: url(fonts/Irish_Grover/IrishGrover-Regular.ttf) format("opentype") ;
+  }  
+
+  @font-face {
+    font-family: 'poppins-light';
+    src: url(fonts/Poppins/Poppins-Light.ttf) format("opentype") ;
+  }    
+  @font-face {
+    font-family: 'poppins-medium';
+    src: url(fonts/Poppins/Poppins-Medium.ttf) format("opentype") ;
+  } 
+
+
+
+.navbar{
+    height: 80px;
+    width: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(0, 128, 0, 0.253), transparent);
+}
+.left-nav{
+    padding: 10px;
+}
+.nav-logo{
+    height: 60px;
+    width: 60px;
+}
+.right-nav{
+    display: flex;
+    height: 60px;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart-holder{
+    text-decoration: none;
+    position: relative;
+}
+.cart-notif{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.nav-text{
+    padding: 10px;
+    margin: 2px;
+    min-width: 40px;
+    height: 25px;
+    border-radius: 0.75em;
+    text-decoration: none;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: poppins-regular;
+}

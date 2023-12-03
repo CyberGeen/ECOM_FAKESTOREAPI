@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url(fonts/Poppins/Poppins-SemiBold.ttf) format("opentype") ;
+  }
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url(fonts/Poppins/Poppins-Bold.ttf) format("opentype") ;
+  }
+@font-face {
+    font-family: 'poppins-regular';
+    src: url(fonts/Poppins/Poppins-Regular.ttf) format("opentype") ;
+  }
+
+  @font-face {
+    font-family: 'irish-grover';
+    src: url(fonts/Irish_Grover/IrishGrover-Regular.ttf) format("opentype") ;
+  }  
+
+  @font-face {
+    font-family: 'poppins-light';
+    src: url(fonts/Poppins/Poppins-Light.ttf) format("opentype") ;
+  }    
+  @font-face {
+    font-family: 'poppins-medium';
+    src: url(fonts/Poppins/Poppins-Medium.ttf) format("opentype") ;
+  } 
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.article-container{
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.article-left{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 50px;
+}
+
+.article-right{
+    padding-right: 200px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-title{
+    padding-top: 50px;
+    font-family: poppins-bold;
+    font-size: xx-large;
+}
+
+.article-desc{
+    padding-top: 100px;
+    font-family: poppins-regular;
+    font-size: large;
+}
+
+.article-right-container{
+    padding-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.article-price{
+    font-family: poppins-bold;
+    font-size: xx-large;
+    color: #097969 ;
+}
+
+.article-btn{
+    height: 60px;
+    width: 150px;
+    border-radius: 0.75em;
+    border-width: 0;
+    font-family: poppins-bold;
+    font-size: large;
+    color: white ;
+    background-color: #097969;
+}
+
+.article-btn:hover{
+    transform: scale(105.5%);
+  }
+
+.article-container-louader{
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.article-container-loader{
+    height: 100%;
+    width: 100%;
+}
+
+.article-not-found-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product-list-img{
+    height: 80%;
+    width: 80%;
+    object-fit:contain;
+    align-self: center;
+}

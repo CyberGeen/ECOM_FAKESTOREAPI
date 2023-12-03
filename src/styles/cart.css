@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url(fonts/Poppins/Poppins-SemiBold.ttf) format("opentype") ;
+  }
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url(fonts/Poppins/Poppins-Bold.ttf) format("opentype") ;
+  }
+@font-face {
+    font-family: 'poppins-regular';
+    src: url(fonts/Poppins/Poppins-Regular.ttf) format("opentype") ;
+  }
+
+  @font-face {
+    font-family: 'irish-grover';
+    src: url(fonts/Irish_Grover/IrishGrover-Regular.ttf) format("opentype") ;
+  }  
+
+  @font-face {
+    font-family: 'poppins-light';
+    src: url(fonts/Poppins/Poppins-Light.ttf) format("opentype") ;
+  }    
+  @font-face {
+    font-family: 'poppins-medium';
+    src: url(fonts/Poppins/Poppins-Medium.ttf) format("opentype") ;
+  } 
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.cart-container{
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-item{
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0.75em;
+    border: 3px solid  rgba(3, 150, 106, 0.164);
+    gap: 10px;
+}
+
+.cart-item-img{
+    height: 100%;
+    width: 300px;
+    object-fit:contain;
+    align-self: center;
+}
+
+.cart-item-left{
+    width: 250px;
+    height: 100%;
+}
+
+.cart-item-right{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+
+.cart-item-title{
+    font-family: poppins-regular;
+    font-size: large;
+}
+
+.cart-item-price{
+    font-family: poppins-bold;
+    font-size: large;
+}
+
+.cart-order-btn{
+    height: 60px;
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 0.75em;
+    border-width: 0;
+    font-family: poppins-bold;
+    font-size: large;
+    color: white ;
+    background-color: #097969;
+}
+
+.cart-order-btn:hover{
+  transform: scale(105.5%);
+}
+
+.cart-item-bot{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cart-item-bot-left{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-family: poppins-regular;
+}
